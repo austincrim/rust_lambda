@@ -1,26 +1,24 @@
 {
-  "name": "rust_lambda",
+  "name": "rust-lambda",
   "version": "0.1.0",
   "bin": {
-    "rust_lambda": "bin/rust_lambda.js"
+    "rust-lambda": "bin/rust-lambda.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cd function && ./build.sh",
     "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "predeploy": "mkdir -p function/target/lambda && cp function/target/x86_64-unknown-linux-musl/release/bootstrap function/target/lambda ",
+    "deploy": "cdk deploy --require-approval never"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.85.0",
-    "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
-    "jest": "^26.4.2",
-    "ts-jest": "^26.2.0",
     "aws-cdk": "1.85.0",
     "ts-node": "^9.0.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.102.0",
     "@aws-cdk/core": "1.85.0",
     "source-map-support": "^0.5.16"
   }
