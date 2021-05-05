@@ -11,6 +11,32 @@
     "@aws-cdk/cx-api" "1.102.0"
     constructs "^3.3.69"
 
+"@aws-cdk/aws-apigatewayv2-integrations@^1.102.0":
+  version "1.102.0"
+  resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-apigatewayv2-integrations/-/aws-apigatewayv2-integrations-1.102.0.tgz#9084b0f548e188a7f0e429d33cb8f77e14621036"
+  integrity sha1-kISw9UjhiKfw5CnTPLj3fhRiEDY=
+  dependencies:
+    "@aws-cdk/aws-apigatewayv2" "1.102.0"
+    "@aws-cdk/aws-ec2" "1.102.0"
+    "@aws-cdk/aws-elasticloadbalancingv2" "1.102.0"
+    "@aws-cdk/aws-iam" "1.102.0"
+    "@aws-cdk/aws-lambda" "1.102.0"
+    "@aws-cdk/aws-servicediscovery" "1.102.0"
+    "@aws-cdk/core" "1.102.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-apigatewayv2@1.102.0", "@aws-cdk/aws-apigatewayv2@^1.102.0":
+  version "1.102.0"
+  resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-apigatewayv2/-/aws-apigatewayv2-1.102.0.tgz#ef48a1571828147f796212ee5e12c9ba588ae91d"
+  integrity sha1-70ihVxgoFH95YhLuXhLJuliK6R0=
+  dependencies:
+    "@aws-cdk/aws-certificatemanager" "1.102.0"
+    "@aws-cdk/aws-cloudwatch" "1.102.0"
+    "@aws-cdk/aws-ec2" "1.102.0"
+    "@aws-cdk/aws-iam" "1.102.0"
+    "@aws-cdk/core" "1.102.0"
+    constructs "^3.3.69"
+
 "@aws-cdk/aws-applicationautoscaling@1.102.0":
   version "1.102.0"
   resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-applicationautoscaling/-/aws-applicationautoscaling-1.102.0.tgz#be70d4caccf80521a53f1beff7a14ea3da1f868f"
@@ -29,6 +55,30 @@
   dependencies:
     "@aws-cdk/aws-iam" "1.102.0"
     "@aws-cdk/core" "1.102.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-certificatemanager@1.102.0":
+  version "1.102.0"
+  resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-certificatemanager/-/aws-certificatemanager-1.102.0.tgz#44c29ee0e03ece423ae32a68b12ad70aa68c1930"
+  integrity sha1-RMKe4OA+zkI64yposSrXCqaMGTA=
+  dependencies:
+    "@aws-cdk/aws-iam" "1.102.0"
+    "@aws-cdk/aws-lambda" "1.102.0"
+    "@aws-cdk/aws-route53" "1.102.0"
+    "@aws-cdk/core" "1.102.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-cloudformation@1.102.0":
+  version "1.102.0"
+  resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-cloudformation/-/aws-cloudformation-1.102.0.tgz#b878ef0e4ea3e484b205a1d828debf280d7fe5ce"
+  integrity sha1-uHjvDk6j5ISyBaHYKN6/KA1/5c4=
+  dependencies:
+    "@aws-cdk/aws-iam" "1.102.0"
+    "@aws-cdk/aws-lambda" "1.102.0"
+    "@aws-cdk/aws-s3" "1.102.0"
+    "@aws-cdk/aws-sns" "1.102.0"
+    "@aws-cdk/core" "1.102.0"
+    "@aws-cdk/cx-api" "1.102.0"
     constructs "^3.3.69"
 
 "@aws-cdk/aws-cloudwatch@1.102.0":
@@ -103,6 +153,23 @@
     "@aws-cdk/cx-api" "1.102.0"
     constructs "^3.3.69"
 
+"@aws-cdk/aws-elasticloadbalancingv2@1.102.0":
+  version "1.102.0"
+  resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-elasticloadbalancingv2/-/aws-elasticloadbalancingv2-1.102.0.tgz#db242783f41758c1e422e7fa98dc6122bce96488"
+  integrity sha1-2yQng/QXWMHkIuf6mNxhIrzpZIg=
+  dependencies:
+    "@aws-cdk/aws-certificatemanager" "1.102.0"
+    "@aws-cdk/aws-cloudwatch" "1.102.0"
+    "@aws-cdk/aws-ec2" "1.102.0"
+    "@aws-cdk/aws-iam" "1.102.0"
+    "@aws-cdk/aws-lambda" "1.102.0"
+    "@aws-cdk/aws-s3" "1.102.0"
+    "@aws-cdk/cloud-assembly-schema" "1.102.0"
+    "@aws-cdk/core" "1.102.0"
+    "@aws-cdk/cx-api" "1.102.0"
+    "@aws-cdk/region-info" "1.102.0"
+    constructs "^3.3.69"
+
 "@aws-cdk/aws-events@1.102.0":
   version "1.102.0"
   resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-events/-/aws-events-1.102.0.tgz#3127fd5adc18a35770f0218ff7a747b8ea001fcc"
@@ -131,7 +198,7 @@
     "@aws-cdk/cx-api" "1.102.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-lambda@^1.102.0":
+"@aws-cdk/aws-lambda@1.102.0", "@aws-cdk/aws-lambda@^1.102.0":
   version "1.102.0"
   resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-lambda/-/aws-lambda-1.102.0.tgz#07e37ecafaedd02db4f0162948458669b55333c0"
   integrity sha1-B+N+yvrt0C208BYpSEWGabVTM8A=
@@ -167,6 +234,19 @@
     "@aws-cdk/core" "1.102.0"
     constructs "^3.3.69"
 
+"@aws-cdk/aws-route53@1.102.0":
+  version "1.102.0"
+  resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-route53/-/aws-route53-1.102.0.tgz#61c627fe96dec6b72fcf8708da062f52ab3cb491"
+  integrity sha1-YcYn/pbexrcvz4cI2gYvUqs8tJE=
+  dependencies:
+    "@aws-cdk/aws-ec2" "1.102.0"
+    "@aws-cdk/aws-iam" "1.102.0"
+    "@aws-cdk/aws-logs" "1.102.0"
+    "@aws-cdk/cloud-assembly-schema" "1.102.0"
+    "@aws-cdk/core" "1.102.0"
+    "@aws-cdk/custom-resources" "1.102.0"
+    constructs "^3.3.69"
+
 "@aws-cdk/aws-s3-assets@1.102.0":
   version "1.102.0"
   resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-s3-assets/-/aws-s3-assets-1.102.0.tgz#80a6872d016a41d22628984fa2ce0c23a50059fb"
@@ -192,11 +272,35 @@
     "@aws-cdk/cx-api" "1.102.0"
     constructs "^3.3.69"
 
+"@aws-cdk/aws-servicediscovery@1.102.0":
+  version "1.102.0"
+  resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-servicediscovery/-/aws-servicediscovery-1.102.0.tgz#5d46b616732a19d7d7ed73ee8c53478da8149e0d"
+  integrity sha1-XUa2FnMqGdfX7XPujFNHjagUng0=
+  dependencies:
+    "@aws-cdk/aws-ec2" "1.102.0"
+    "@aws-cdk/aws-elasticloadbalancingv2" "1.102.0"
+    "@aws-cdk/aws-route53" "1.102.0"
+    "@aws-cdk/core" "1.102.0"
+    constructs "^3.3.69"
+
 "@aws-cdk/aws-signer@1.102.0":
   version "1.102.0"
   resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-signer/-/aws-signer-1.102.0.tgz#c72d9c71b6f6bc60e44f81710216a12b1257730b"
   integrity sha1-xy2ccbb2vGDkT4FxAhahKxJXcws=
   dependencies:
+    "@aws-cdk/core" "1.102.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-sns@1.102.0":
+  version "1.102.0"
+  resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/aws-sns/-/aws-sns-1.102.0.tgz#50c81df20f1f558a3eab1643c2fe142e2364a3d6"
+  integrity sha1-UMgd8g8fVYo+qxZDwv4ULiNko9Y=
+  dependencies:
+    "@aws-cdk/aws-cloudwatch" "1.102.0"
+    "@aws-cdk/aws-events" "1.102.0"
+    "@aws-cdk/aws-iam" "1.102.0"
+    "@aws-cdk/aws-kms" "1.102.0"
+    "@aws-cdk/aws-sqs" "1.102.0"
     "@aws-cdk/core" "1.102.0"
     constructs "^3.3.69"
 
@@ -284,6 +388,20 @@
     fs-extra "^9.0.1"
     ignore "^5.1.8"
     minimatch "^3.0.4"
+
+"@aws-cdk/custom-resources@1.102.0":
+  version "1.102.0"
+  resolved "https://principal2.jfrog.io/principal2/api/npm/npm/@aws-cdk/custom-resources/-/custom-resources-1.102.0.tgz#fc2aa2d220b254e3c1c8971e4d7646330c3a1c49"
+  integrity sha1-/Cqi0iCyVOPByJceTXZGMww6HEk=
+  dependencies:
+    "@aws-cdk/aws-cloudformation" "1.102.0"
+    "@aws-cdk/aws-ec2" "1.102.0"
+    "@aws-cdk/aws-iam" "1.102.0"
+    "@aws-cdk/aws-lambda" "1.102.0"
+    "@aws-cdk/aws-logs" "1.102.0"
+    "@aws-cdk/aws-sns" "1.102.0"
+    "@aws-cdk/core" "1.102.0"
+    constructs "^3.3.69"
 
 "@aws-cdk/cx-api@1.102.0":
   version "1.102.0"

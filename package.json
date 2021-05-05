@@ -8,7 +8,6 @@
     "build": "tsc && cd function && ./build.sh",
     "watch": "tsc -w",
     "cdk": "cdk",
-    "predeploy": "mkdir -p function/target/lambda && cp function/target/x86_64-unknown-linux-musl/release/bootstrap function/target/lambda ",
     "deploy": "cdk deploy --require-approval never"
   },
   "devDependencies": {
@@ -18,6 +17,8 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigatewayv2": "^1.102.0",
+    "@aws-cdk/aws-apigatewayv2-integrations": "^1.102.0",
     "@aws-cdk/aws-lambda": "^1.102.0",
     "@aws-cdk/core": "1.85.0",
     "source-map-support": "^0.5.16"
