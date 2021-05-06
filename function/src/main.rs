@@ -21,11 +21,12 @@ async fn handler(event: ApiGatewayV2httpRequest, _: Context) -> Result<Value, Er
   log::info!("request body: {:?}", event.body);
   let name = event.query_string_parameters["name"].as_str();
   let body: CalculatorRequest = serde_json::from_str(&event.body.unwrap()).unwrap();
-  let response = format!("Hello, {}, you sent me {:?}", name, body);
+  let response = format!("Hello, {}, {} + {} = {}", name, body.num_one, body.num_two, body.num_one + body.num_two);
   log::info!("{}", response);
 
   Ok(json!({ "response": response }))
 }
+
 #[derive(serde::Serialize, serde::Deserialize, Debug)]
 struct CalculatorRequest {
   num_one: i32,
