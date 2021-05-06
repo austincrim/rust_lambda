@@ -1,15 +1,13 @@
-# Rust + Lambda + API Gateway PoC
+# Rust + Lambda + API Gateway PoC  
 
-Base URL:  
-https://jd5a45slm6.execute-api.us-east-1.amazonaws.com
+## Example Request
 
-## Endpoints
+```
+POST https://jd5a45slm6.execute-api.us-east-1.amazonaws.com/calculate?name=Austin
 
-`POST /calculate`
-```json
 {
-  "num1": number,
-  "num2": number
+  "num1": 2,
+  "num2": 10
 }
 ```
 
