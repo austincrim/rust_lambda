@@ -1,8 +1,17 @@
-# Welcome to your CDK TypeScript project!
+# Rust + Lambda + API Gateway PoC
 
-This is a blank project for TypeScript development with CDK.
+Base URL:  
+https://jd5a45slm6.execute-api.us-east-1.amazonaws.com
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Endpoints
+
+`POST /calculate`
+```json
+{
+  "num1": number,
+  "num2": number
+}
+```
 
 ## Useful commands
 

@@ -26,7 +26,7 @@ export class RustLambdaStack extends cdk.Stack {
 
     const api = new apig.HttpApi(this, 'hello_rust_api')
     api.addRoutes({
-      path: '/hello_rust',
+      path: '/calculate',
       integration
     })
   }
